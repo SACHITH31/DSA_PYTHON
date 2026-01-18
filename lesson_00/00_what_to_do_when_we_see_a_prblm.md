@@ -1,5 +1,5 @@
 # How to think for every problem
-![How to think for every problem](../assets/image.png)
+![How to think for every problem](./assets/image.png)
 
 When you see a problem, you can follow these steps to think through it effectively:
 1. **Understand the Problem**: Read the problem carefully. Make sure you understand what is being asked. Identify the key components and any constraints.
