@@ -1,0 +1,16 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+size = int(input())
+elements = list(map(int, input().split()))
+
+zeroes = 0
+positives = 0
+negatives = 0
+
+for i in range(len(elements)):
+    if (elements[i] == 0):
+        zeroes += 1
+    elif (elements[i] > 0):
+        positives += 1
+    else:
+        negatives += 1
+print(zeroes, positives, negatives)
