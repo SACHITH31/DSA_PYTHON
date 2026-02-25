@@ -7,7 +7,6 @@ elements = []
 for i in range(row):
     temp = list(map(int, input().split()))
     elements.append(temp)
-print(elements)
 
 counter1 = 0
 for i in range(1, row - 1):
