@@ -1,0 +1,21 @@
+testCases = int(input())
+
+def poshop(size, elements):
+    p1 = 0
+    p2 = p1 + 1
+    total = elements[0]
+    while (p1 < size - 1):
+        while (p2 <= size - 1):
+            if (elements[p1] <= elements[p2]):
+                if (total <= elements[p1] + elements[p2]):
+                    total = elements[p1] + elements[p2]
+            p2 += 1
+        p1 += 1
+        p2 = p1 + 1
+    return total
+
+for i in range(testCases):
+    size = int(input())
+    elements = list(map(int, input().split()))
+    res = poshop(size, elements)
+    print(res)
